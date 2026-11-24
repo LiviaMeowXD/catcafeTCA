@@ -5,19 +5,10 @@ create database catcafe;
 \c catcafe;
 
 
-create table usuario(
-    nome
-    cpf
-    telefone
-    
-);
-
---V
-create table clientes(
+create table usuarios(
     cpf int not null primary key,
-    nome varchar(100) not null,
-    telefone varchar(20) not null,
-    entrada timestamp null default now()
+    nome varchar(500) not null,
+    senha varchar(8) not null
 );
 
 --                           
@@ -29,7 +20,9 @@ create table mesas(
 --
 create table reservas(
     id serial primary key,
-    nome varchar(100) not null
+    nome varchar(100) not null,
+    dia date not null default now(),
+    hora timestamptz null default now()
 );
 
 create table mesa_reserva(
@@ -38,10 +31,10 @@ create table mesa_reserva(
     primary key (id_mesa, id_reserva)
 );
 
-create table cliente_reserva(
-    id_cliente int not null references clientes(cpf),
+create table usuario_reserva(
+    id_usuario int not null references usuarios(cpf),
     id_reserva int not null references reservas(id),
-    primary key (id_cliente, id_reserva)
+    primary key (id_usuario, id_reserva)
 );
 
 insert into mesas(nome)
