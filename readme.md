@@ -1,4 +1,4 @@
-# Integração com Supabase
+# Felis Kingdom 
 
 Projeto de exemplo que usa o cliente JavaScript do Supabase no navegador para autenticar um usuário e consultar dados das tabelas `personagens` e `itens`.
 
