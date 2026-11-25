@@ -13,7 +13,7 @@ O indivíduo além de criar, também poderá: alterar e excluir suas reservas.
 
 **Felis Kingdom: Cafeteria & Lazer** é uma cafeteria onde os próprios gatos trabalham nela (sim, você não leu isso errado). Criado pela proprietária Darkside, ela e seus funcionários têm o trabalho de satisfazer os humanos que recebem com seus deliciosos produtos e com o poder da fofura.
 
-<h4>OBS: Isso é uma história fictícia, nemhum gato está sendo escravizado aqui. Isto é apenas um projeto escolar e feito por puro entretenimento</h4>
+<h4>(OBS: Isso é uma história fictícia, nenhum gato está sendo escravizado aqui. Isto é apenas um projeto escolar e feito por puro entretenimento)</h4>
 
 ## Futuras Atualizações 
 
@@ -24,4 +24,4 @@ O indivíduo além de criar, também poderá: alterar e excluir suas reservas.
 
 <img src="./img/bannerfk.jpg" alt="Banner Felis Kingdom">
 
-<h4>© Felis Kingdom, All cats reserved.</h4>
+<h5>© Felis Kingdom, All cats reserved.</h5>
