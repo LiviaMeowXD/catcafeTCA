@@ -22,6 +22,6 @@ O indivíduo além de criar, também poderá: alterar e excluir suas reservas.
 *   Adicionar área para funcionários;
 *   ???
 
-<h4>© Felis Kingdom, All cats reserved.</h4>
-
 <img src="./img/bannerfk.jpg" alt="Banner Felis Kingdom">
+
+<h4>© Felis Kingdom, All cats reserved.</h4>
