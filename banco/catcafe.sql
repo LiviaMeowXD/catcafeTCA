@@ -1,12 +1,11 @@
-drop database if exists catcafe;
-
-create database catcafe;
-
-\c catcafe;
-
+drop table if exists usuario_reserva;
+drop table if exists mesa_reserva;
+drop table if exists reservas;
+drop table if exists mesas;
+drop table if exists usuarios;
 
 create table usuarios(
-    cpf int not null primary key,
+    cpf varchar(11) not null primary key,
     nome varchar(500) not null,
     senha varchar(8) not null
 );
@@ -15,8 +14,7 @@ create table usuarios(
 create table mesas(
     id serial primary key,
     nome varchar(50)
-);                                                                                                                                                               
-
+);                                                                                                                                                      
 --
 create table reservas(
     id serial primary key,
@@ -32,7 +30,7 @@ create table mesa_reserva(
 );
 
 create table usuario_reserva(
-    id_usuario int not null references usuarios(cpf),
+    id_usuario varchar(11) not null references usuarios(cpf),
     id_reserva int not null references reservas(id),
     primary key (id_usuario, id_reserva)
 );
