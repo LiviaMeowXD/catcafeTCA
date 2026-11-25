@@ -1,11 +1,25 @@
-# Felis Kingdom 
+# Felis Kingdom: Cafeteria & Lazer🐈💕
 
-Projeto de exemplo que usa o cliente JavaScript do Supabase no navegador para autenticar um usuário e consultar dados das tabelas `personagens` e `itens`.
+Bem-Vindos á cafeteria **Felis Kingdom**! Este projeto foi feito para um trabalho com o intuito de desenvolver o conhecimento sobre banco de dados. No momento, o site permite que um indivíduo de cadastre/faça login e faça sua reserva (ou reservAS).
 
-## Como executar
+O indivíduo além de criar, também poderá: alterar e excluir suas reservas.
 
-1. Configure a URL, a chave pública e os dados de autenticação em `env.js` (use `ex_env.js` como modelo).
-2. Abra `index.html` em um navegador com acesso à internet.
-3. Veja o resultado da consulta no console do navegador.
+## Tecnologias utilizadas
 
-Não compartilhe nem versione credenciais de usuário. Para um projeto real, não coloque senhas no código do navegador.
+* **Front-end:** HTML, CSS e JavaScript
+* **Banco de dados e autenticação:** SQL e Supabase
+
+## Sobre a cafeteria
+
+**Felis Kingdom: Cafeteria & Lazer** é uma cafeteria onde os próprios gatos trabalham nela (sim, você não leu isso errado). Criado pela proprietária Darkside, ela e seus funcionários têm o trabalho de satisfazer os humanos que recebem com seus deliciosos produtos e com o poder da fofura.
+
+*OBS: Isso é uma história fictícia, nemhum gato está sendo escravizado aqui. Isto é apenas um projeto escolar e feito por puro entretenimento*
+
+## Futuras Atualizações 
+
+*   Adicionar sistema de pedidos;
+*   Adiconar formulário de emprego (SOMENTE PARA GATOS SE REGISTRAREM)
+*   Adicionar área para funcionários;
+*   ???
+
+*© Felis Kingdom, All cats reserved.*
