@@ -6,8 +6,9 @@ Comandos
 	git add <arquivo> -> Começa a rastrear um arquivo (ele vira parte do commit)
 	git commit -m "mensagem" -> Escreve uma mensagem para o commit e fecha o ciclo.
 	git push HEAD:main-> manda para o repositório do github o que foi feito nos ultimos commits.
+	git rm nome-do-arquivo.ext -> Remove um arquivo.
 
 feat: Adicionou algo novo
 docs: escreveu algo que explica outra coisa
 chore: mudou formatação, ponto virgula. Coisas que não alteram funcionamento ou apagou algo
-fix: altera algo que já existia.
+fix: altera algo que já existia. 
