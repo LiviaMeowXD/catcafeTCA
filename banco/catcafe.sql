@@ -1,39 +1,21 @@
-drop table if exists usuario_reserva;
-drop table if exists mesa_reserva;
 drop table if exists reservas;
 drop table if exists mesas;
-drop table if exists usuarios;
 
-create table usuarios(
-    cpf varchar(11) not null primary key,
-    nome varchar(500) not null,
-    senha varchar(8) not null
-);
 
---                           
 create table mesas(
     id serial primary key,
     nome varchar(50)
-);                                                                                                                                                      
---
+);      
+
 create table reservas(
     id serial primary key,
+    cpf varchar(11) not null,
     nome varchar(100) not null,
     dia date not null default now(),
-    hora timestamptz null default now()
+    hora time not null default now(),
+    id_mesa int not null references mesas(id)
 );
-
-create table mesa_reserva(
-    id_mesa int not null references mesas(id),
-    id_reserva int not null references reservas(id),
-    primary key (id_mesa, id_reserva)
-);
-
-create table usuario_reserva(
-    id_usuario varchar(11) not null references usuarios(cpf),
-    id_reserva int not null references reservas(id),
-    primary key (id_usuario, id_reserva)
-);
+--                       
 
 insert into mesas(nome)
 values
@@ -53,3 +35,11 @@ values
     ('Mesa 13'),
     ('Mesa 14'),
     ('Mesa 15');
+
+alter table public.reservas disable row level security;
+alter table public.mesas disable row level security;
+
+grant usage on schema public to anon;
+grant select, insert, update, delete on public.reservas to anon;
+grant select on public.mesas to anon;
+grant usage, select on all sequences in schema public to anon;
