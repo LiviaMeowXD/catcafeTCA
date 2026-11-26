@@ -1,6 +1,6 @@
 # Felis Kingdom: Cafeteria & Lazer🐈💕
 
-Bem-Vindos á cafeteria **Felis Kingdom**! Este projeto foi feito para um trabalho com o intuito de desenvolver o conhecimento sobre banco de dados. No momento, o site permite que um indivíduo de cadastre/faça login e faça sua reserva (ou reservAS).
+Bem-Vindos á cafeteria **Felis Kingdom**! Este projeto foi feito para um trabalho com o intuito de desenvolver o conhecimento sobre banco de dados. No momento, o site permite que um indivíduo faça sua reserva (ou reservAS).
 
 O indivíduo além de criar, também poderá: alterar e excluir suas reservas.
 
