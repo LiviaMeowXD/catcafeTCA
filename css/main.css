@@ -7,7 +7,7 @@ A ordem em que são chamados é importante */
 @import url('variables.css');
 @import url('layout.css');
 @import url('omg.css');
-
+@import url('base.css');
 
 /* Abaixo coloque códigos css usados exclusivamente 
 nesta página(códigos específicos,que não são reutilizados,

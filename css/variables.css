@@ -8,7 +8,8 @@ mas os valores são específicos para este projeto.
 
 :root {
     /* Cores */
-    --letter-color: rgb(101, 56, 225);
+    --letter-color: rgb(42, 22, 97);
+    --background-color: ;
 
     /* Bordas */
     --border: 7px solid rgba(53, 72, 149, 0.877);

@@ -1,0 +1,16 @@
+#consulta h2{
+    text-align: center;
+}
+
+#list { 
+    border: 4px solid #240475;
+    background-color: rgb(238, 233, 240) ;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px; 
+}
+
+#submitBtn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
