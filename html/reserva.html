@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Felis Kingdom</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/variables.css">
+</head>
+<body>
+
+    <h2>Faça sua reserva:</h2>
+        <form id="form">  
+            <input type="hidden" id="id">
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" placeholder="Sem Hífen" maxlength="11" required>  
+            <br>
+            <br>
+            <label for="n1">Nome:</label>
+            <input type="text" id="n1" placeholder="Nome e Sobrenome" required> 
+            <br>
+            <br>
+            <label for="d1">Data:</label>
+            <input type="date"  id="d1" placeholder="" required> 
+            <br>
+            <br>
+            <label for="h1">Horário:</label>
+            <input type="time" id="h1" placeholder="" required> 
+            <br>
+            <br>
+
+            <label for="m1">Mesa:</label>
+            <select id="m1">
+                <option value="0">Mesa 1</option>
+                <option value="1">Mesa 2</option>
+                <option value="2">Mesa 3</option>
+                <option value="3">Mesa 4</option>
+                <option value="4">Mesa 5</option>
+                <option value="5">Mesa 6</option>
+                <option value="6">Mesa 7</option>
+                <option value="7">Mesa 8</option>
+                <option value="8">Mesa 9</option>
+                <option value="9">Mesa 10</option>
+                <option value="10">Mesa 11</option>
+                <option value="11">Mesa 12</option>
+                <option value="12">Mesa 13</option>
+                <option value="13">Mesa 14</option>
+                <option value="14">Mesa 15</option>
+            </select>
+
+            <br>
+            <br>
+            <button type="submit" id="submitBtn">Reservar</button>
+        </form>
+
+        <div id="consulta">
+            <div id="msg"></div>
+            <h2 id="p">Reservas cadastradas:</h2>
+            <div id="list">Loading...</div>
+        </div>
+
+    <script type="module" src="../js/login_user.js"></script>
+</body>
+</html>
+
